@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Ssecond = () => {
+const Ssecond = ( props) => {
   return (
     <>
-    <h1> nabin dangol from budhanilkantha kathmandu nepal</h1>
+    <h1>{props.head}</h1>
     </>
   )
 }

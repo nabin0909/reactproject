@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Firsts = () => {
+const Firsts = ( props) => {
   return (
     <>
-    <h1> nabain</h1>
+    <h1>{props.head} </h1>
     </>
   )
 }
